@@ -3,6 +3,16 @@ body {
 }
 
 
+textarea,input {
+    outline: none;
+
+    resize: none;
+
+    border: 1px solid #cccccc;
+    font-size: 13px;
+    font-family: arial,sans-serif;
+}
+
 #email {
     position: absolute;
     height:414px;
@@ -10,21 +20,32 @@ body {
     left: 152px; 
     top: 161px;
 
-    outline: none;
     padding: 10px;
+}
 
-    resize: none;
 
-    border: 1px solid #cccccc;
+#recipients,#subject {
+    height:21px;
+    width:958px;
+    padding: 10px;
+}
 
-    font-size: 12px;
-    font-family: arial,sans-serif;
+
+#recipients {
+    position: relative;
+    top:69px;
+    left:144px;
+}
+
+#subject {
+    position: relative;
+    top:62px;
+    left:144px;
 }
 
 #logo {
-    position: absolute;
-    bottom:31px;
-    left:475px;
-
+    position: relative;
+    left: 465px;
+    top: 594px;
     max-height:30px;
 }
