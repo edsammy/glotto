@@ -3,7 +3,7 @@ body {
 }
 
 
-textarea,input {
+textarea,input:not(#logo) {
     outline: none;
 
     resize: none;
@@ -39,13 +39,13 @@ textarea,input {
 
 #subject {
     position: relative;
-    top:62px;
+    top:64px;
     left:144px;
 }
 
 #logo {
     position: relative;
-    left: 465px;
-    top: 594px;
+    left: -520px;
+    top: 551px;
     max-height:30px;
 }
