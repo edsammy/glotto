@@ -18,4 +18,13 @@ body {
     border: 1px solid #cccccc;
 
     font-size: 12px;
+    font-family: arial,sans-serif;
+}
+
+#logo {
+    position: absolute;
+    bottom:31px;
+    left:475px;
+
+    max-height:30px;
 }
