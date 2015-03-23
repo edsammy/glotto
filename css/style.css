@@ -54,7 +54,7 @@ textarea,input:not(#logo),#email {
     max-height:30px;
 }
 
-input:focus {
+#logo:hover {
     background-image: url("../logoblue.png");
     -webkit-transition: opacity 0.5s;
     -moz-transition:    opacity 0.5s;
