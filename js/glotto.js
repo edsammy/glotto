@@ -3,6 +3,6 @@ $( document ).ready(function() {
         e.preventDefault();
         var email = $('#email');
         var emailText = email.html();
-        email.hide().html('<span class="glotto" data-tooltip="Try adding a greeting!">greeting?</span><br> <br> <span class="truncate">'+emailText+'</span>'+'&nbsp;').fadeIn(1000);
+        email.hide().html('<span class="glotto" data-tooltip="Glotto recommends greetings!">Insert a greeting here.</span><br> <br> <span class="tooharsh" data-tooltip="Soften your tone.">'+emailText+'</span>').fadeIn(1000);
     });
 });

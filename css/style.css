@@ -1,5 +1,8 @@
 body {
     background-image: url("../gmail.png");
+    background-image: fixed;
+    /* background-repeat: no-repeat; only one appearance with this
+    background-size: 100%; /* rescale based on container size */
 }
 
 
@@ -51,9 +54,20 @@ textarea,input:not(#logo),#email {
     max-height:30px;
 }
 
+input:focus {
+    background-image: url("../logoblue.png");
+    -webkit-transition: opacity 0.5s;
+    -moz-transition:    opacity 0.5s;
+    -o-transition:      opacity 0.5s;
+}
+
 .truncate {
-    padding: 2px;
-    background-color: #E0FFFF;
+    /* padding: 2px; --> giving off a weird mark at the bottom */ 
+    background-color: #E0FFFF; /* soft blue */
+}
+
+.tooharsh {
+    background-color: #ef3d47; /* red */
 }
 
 .glotto {
