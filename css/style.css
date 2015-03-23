@@ -1,0 +1,63 @@
+body {
+    background-image: url("../gmail.png");
+}
+
+
+textarea,input:not(#logo),#email {
+    outline: none;
+
+    resize: none;
+
+    border: 1px solid #cccccc;
+    font-size: 13px;
+    font-family: arial,sans-serif;
+}
+
+#email {
+    position: absolute;
+    height:414px;
+    width:958px;
+    left: 152px; 
+    top: 161px;
+
+    padding: 10px;
+    line-height: 130%;
+}
+
+
+#recipients,#subject {
+    height:21px;
+    width:958px;
+    padding: 10px;
+}
+
+
+#recipients {
+    position: relative;
+    top:69px;
+    left:144px;
+}
+
+#subject {
+    position: relative;
+    top:64px;
+    left:144px;
+}
+
+#logo {
+    position: relative;
+    left: -520px;
+    top: 551px;
+    max-height:30px;
+}
+
+.truncate {
+    padding: 2px;
+    background-color: #E0FFFF;
+}
+
+.glotto {
+    font-style: italic;
+    font-weight: bold;
+    border-bottom: 1px dashed #999;
+}
